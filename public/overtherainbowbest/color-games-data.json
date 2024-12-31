@@ -1,0 +1,51 @@
+{
+  "games": [
+    {
+      "id": "color-match",
+      "name": "Color Match",
+      "iframeUrl": "/games/color-match/index.html",
+      "image": "/images/games/color-match.jpg",
+      "description": "Match colors to create beautiful combinations and score points!",
+      "shortDescription": "A fascinating color matching puzzle game",
+      "featured": true,
+      "category": "puzzle",
+      "difficulty": "easy",
+      "videos": [
+        {
+          "title": "Getting Started",
+          "url": "https://youtube.com/watch?v=example1",
+          "thumbnail": "/images/tutorials/color-match-1.jpg"
+        }
+      ],
+      "guides": [
+        {
+          "step": 1,
+          "title": "Basic Matching",
+          "description": "Click on groups of three or more same-colored blocks to remove them."
+        }
+      ],
+      "tags": ["puzzle", "colors", "matching"],
+      "rating": {
+        "score": 4.8,
+        "count": 156
+      },
+      "lastUpdated": "2024-03-20"
+    }
+  ],
+  "categories": [
+    {
+      "id": "puzzle",
+      "name": "Puzzle Games",
+      "description": "Challenge your mind with colorful puzzles"
+    },
+    {
+      "id": "action",
+      "name": "Action Games",
+      "description": "Fast-paced color-based action games"
+    }
+  ],
+  "featured": {
+    "mainGame": "color-match",
+    "showcase": ["color-blast", "rainbow-run"]
+  }
+} 

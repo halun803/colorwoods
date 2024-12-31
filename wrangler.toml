@@ -1,0 +1,7 @@
+name = "waterme-game"
+compatibility_date = "2024-01-01"
+
+[[r2_buckets]]
+binding = "GAME_ASSETS"
+bucket_name = "game-assets"
+preview_bucket_name = "game-assets-dev" 

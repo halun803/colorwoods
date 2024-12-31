@@ -1,0 +1,28 @@
+{
+  "games": [
+    {
+      "id": "color-match",
+      "name": "Color Match",
+      "iframeUrl": "/games/color-match/index.html",
+      "image": "/images/games/color-match.jpg",
+      "description": "Match colors to create beautiful combinations and score points!",
+      "shortDescription": "A fascinating color matching puzzle game",
+      "featured": true,
+      "category": "puzzle",
+      "difficulty": "easy",
+      "tags": ["puzzle", "colors", "matching"]
+    },
+    {
+      "id": "color-blast",
+      "name": "Color Blast",
+      "iframeUrl": "/games/color-blast/index.html",
+      "image": "/images/games/color-blast.jpg",
+      "description": "Blast through colorful obstacles in this exciting action game!",
+      "shortDescription": "Fast-paced color action game",
+      "featured": true,
+      "category": "action",
+      "difficulty": "medium",
+      "tags": ["action", "colors", "arcade"]
+    }
+  ]
+} 

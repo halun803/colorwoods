@@ -1,0 +1,21 @@
+{
+  "name": "overtherainbow-games",
+  "version": "1.0.0",
+  "description": "Free online HTML5 games platform",
+  "private": true,
+  "scripts": {
+    "generate": "node --no-deprecation generate-games-data.js",
+    "build": "npm run generate && npm run add-ads",
+    "deploy": "vercel --prod",
+    "add-ads": "node add-google-ads.js"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.1.0"
+  }
+}
